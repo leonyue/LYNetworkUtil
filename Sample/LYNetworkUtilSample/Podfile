@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LYNetworkUtilSample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LYNetworkUtilSample
+  pod 'LYNetworkUtil', :path => '../../../LYNetworkUtil'
+  #pod 'AFNetworking', :git => 'https://github.com/gowalla/AFNetworking.git',:tag => '0.7.0'
+end
